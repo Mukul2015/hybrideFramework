@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="own framework(failed)">
+    <classes>
+      <class name="testcases.RegistationPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="validateCreateaccount"/>
+        </methods>
+      </class> <!-- testcases.RegistationPageTest -->
+    </classes>
+  </test> <!-- own framework(failed) -->
+</suite> <!-- Failed suite [Suite] -->

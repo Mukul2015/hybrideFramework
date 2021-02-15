@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Hybride framework test Suite">
+<listeners>
+		<listener class-name="Report.ExtentReporterNG" />
+	</listeners>
+  <test name="own framework">
+		<classes>
+			<class name="testcases.SearchBoxTest"></class>
+			<class name="testcases.SigninPageTest"></class>
+			<class name="testcases.RegistationPageTest"></class>
+			
+		</classes>
+	</test>
+ 
+</suite> 
